@@ -3,8 +3,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
     background-color: rgb(58, 58, 58);
-    border: red, solid, 3px;
+    border: rgb(255, 0, 0) solid 10px;
 }
 
 .foto {
@@ -13,8 +14,14 @@ body {
     margin-right: auto;
     border-radius: 120px;
     width: 200px;
+    padding: 0px 5px 0px 0px;
 }
 
-.perfil {color: white;}
-.titulo {color: white;}
-.descricao {color: white;}
+.foto:hover {
+    border-radius: 0px;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s;
+}
+
+.perfil {color: white;}.meusprojetos {color: white}.titulo {color: white; font-size: 36px;}.descricao {color: white;}
