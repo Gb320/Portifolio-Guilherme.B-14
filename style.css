@@ -15,12 +15,12 @@ body {
     border-radius: 120px;
     width: 200px;
     padding: 0px 5px 0px 0px;
+    transition: all 0.3s ease-in-out;
 }
 
-.foto:hover {
-    border-radius: 0px;
-    transition-timing-function: ease-in;
-    transition-timing-function: ease-out;
+.foto:hover{
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
     transition-duration: 0.3s;
 }
 
