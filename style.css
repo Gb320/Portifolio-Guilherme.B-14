@@ -1,11 +1,22 @@
+html {
+    background-color: rgb(58, 58, 58);
+    padding: 5rem;
+    font-family: Roboto;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
+    text-align: center;
     flex-direction: column;
+    padding-top: 3rem;
+    max-width: 150vh;
     background-color: rgb(58, 58, 58);
-    border: rgb(255, 0, 0) solid 10px;
+    border: rgb(0, 255, 234) solid 10px;
+    box-shadow: 0 0 200px 10px rgb(0, 255, 234);
+    border-radius: 50px;
 }
 
 .foto {
@@ -24,4 +35,8 @@ body {
     transition-duration: 0.3s;
 }
 
-.perfil {color: white;}.meusprojetos {color: white}.titulo {color: white; font-size: 36px;}.descricao {color: white;}
+.perfil {color: white; font-size: 28px; font-weight: bold; transition: all 0.2s ease-in-out;} .perfil:hover {scale:120%;transition-duration: 0.2s; transition-timing-function: ease-in-out;}
+.meusprojetos {color: white; padding-bottom: 20px; transition: all 0.2s ease-in-out;} .meusprojetos:hover {scale:120%;transition-duration: 0.2s; transition-timing-function: ease-in-out;}
+.titulo {color: white; font-size: 36px; transition: all 0.2s ease-in-out;} .titulo:hover {scale:120%;transition-duration: 0.2s; transition-timing-function: ease-in-out;}
+.texto2 {color: white; transition: all 0.2s ease-in-out;} .descricao:hover {scale:120%;transition-duration: 0.2s; transition-timing-function: ease-in-out;} 
+.habilidades {color: white;}
